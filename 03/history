@@ -1,0 +1,4 @@
+#!/bin/bash
+
+grep "France.*2019.*PHP" wilders.csv > php_france_2019.csv
+grep -E "(Biarritz|Toulouse).*JavaScript" wilders.csv > javascript_biarritz_toulouse.csv
